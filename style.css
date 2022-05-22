@@ -1,0 +1,37 @@
+body{
+    margin:0;
+    text-align: center;
+    padding-top: 100px;
+}
+
+#pic{
+    width:250px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+#home_page{
+    position:absolute;
+    height: 800px;
+    background:linear-gradient(#90EE90 0%, #ADD8E6 100%);
+    color:black;
+    width:100%;
+    padding-top: 200px;
+    margin-bottom: 800px;
+}
+
+#bio{
+    padding:100px;
+    background-color: rgb(255, 255, 255);
+    color:black;
+    height:1000px;
+    margin-top: 900px;
+    font-size: 30px;
+}
+
+.line{
+    height: 6px;
+    width: 100px;
+    background-color: black;
+    margin:8px auto;
+}
