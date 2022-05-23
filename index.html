@@ -1,46 +1,36 @@
 <html>
     <head>
         <link rel="stylesheet" href="style.css">
-        <title>Tim Berners-Lee </title>
+        <title>Time burner Lee</title>
     </head>
     <body>
-        <div id="home_page">
-            <img id="pic" src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Sir_Tim_Berners-Lee_%28cropped%29.jpg">
-            <h1>I am</h1>
-            <h1>Tim Berners-Lee</h1>
+        <ul class="menu">
+            <li class="links">Home</li>
+            <li class="links">Video</li>
+            <li class="links">Work</li>
+            <li class="links">Writings</li>
+            <li class="links">contact</li>
+        </ul>
+        <div id="home">
+            <img id="pic" src="data:image/jpeg;base64,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">
+            <h1>Hi</h1>
+            <h1>I am Tim Berners Lee</h1>
             <h2>I am the founder of www: world wide web</h2>
         </div>
-        <br>
         <br>
         <br>
         <div id="bio">
             <h1>Hi</h1>
             <div class="line"></div>
-            <p>Sir Tim Berners-Lee invented the World Wide Web in 1989.
+            <p>Sir Timothy John Berners-Lee OM KBE FRS FREng FRSA DFBCS (born 8 June 1955), also known as TimBL, is an English computer scientist best known as the inventor of the World Wide Web. He is a Professorial Fellow of Computer Science at the University of Oxford[2] and a professor at the Massachusetts Institute of Technology (MIT).[3][4] Berners-Lee proposed an information management system on 12 March 1989,[5][6] then implemented the first successful communication between a Hypertext Transfer Protocol (HTTP) client and server via the Internet in mid-November.[7][8][9][10][11]
 
-                He is the co-founder and CTO of Inrupt.com, a tech start-up which uses, promotes and helps develop the open source Solid platform. Solid aims to give people control and agency over their data, questioning many assumptions about how the web has to work. Solid technically is is new level of standard at the web layer, which adds things never put into the original spec, such as global single sign-on, universal access control, and a universal data API so that any app can store data in any storage place. Socially Solid is a movement away from much of the issues with the current WWW, and toward a world in which users are in control, and empowered by large amounts of data, private, shared, and public.
+                Berners-Lee is the director of the World Wide Web Consortium (W3C),<br> which oversees the continued development of the Web. He co-founded (with his then wife-to-be Rosemary Leith) the World Wide Web Foundation. He is a senior researcher and holder of the 3Com founder's chair at the MIT Computer Science and Artificial Intelligence Laboratory (CSAIL).[12] He is a director of the Web Science Research Initiative (WSRI)[13] and a member of the advisory board of the MIT Center for Collective Intelligence.[14][15] In 2011, he was named as a member of the board of trustees of the Ford Foundation.[16] He is a founder and president of the Open Data Institute and is currently an advisor at social network MeWe.[17]
                 
-                Sir Tim is the Director of the World Wide Web Consortium (W3C), a Web standards organization founded in 1994 which develops interoperable technologies (specifications, guidelines, software, and tools) to lead the Web to its full potential. He is a Director of the World Wide Web Foundation which was launched in 2009 to coordinate efforts to further the potential of the Web to benefit humanity.
+                <br>In 2004, Berners-Lee was knighted by Queen Elizabeth II for his pioneering work.[18][19]
                 
-                A graduate of Oxford University, Sir Tim invented the Web while at CERN, the European Particle Physics Laboratory, in 1989. He wrote the first web client and server in 1990. His specifications of URIs, HTTP and HTML were refined as Web technology spread.
+                He devised and implemented the first Web browser and Web server, and helped foster the Web's subsequent explosive development. He currently directs the W3 Consortium, developing tools and standards to further the Web's potential. In April 2009, he was elected as Foreign Associate of the National Academy of Sciences.[20][21]
                 
-                He is the 3Com Founders Professor of Engineering in the School of Engineering with a joint appointment in the Department of Electrical Engineering and Computer Science at the Laboratory for Computer Science and Artificial Intelligence ( CSAIL) at the Massachusetts Institute of Technology (MIT) where he co-leads the Decentralized Information Group (DIG).
-                
-                The Decentralized Information Group, works on the Solid Project to give people control of their own data and to re-decentralize the Web. He is the co-founder and CTO of inrupt, the company launched to ensure the success of the Solid platform and its open source community, and to build the ecosystem that supports it.
-                
-                He is also a Professor in the Computer Science Department at the University of Oxford, UK.<br> He is President of and founded the Open Data Institute in London. He is President of London's Open Data Institute.
-                
-                In 2001 he became a Fellow of the Royal Society. He has been the recipient of several international awards including the Japan Prize, the Prince of Asturias Foundation Prize, the Millennium Technology Prize and Germany's Die Quadriga award. In 2004 he was knighted by H.M. Queen Elizabeth and in 2007 he was awarded the Order of Merit. In 2009 he was elected a foreign associate of the National Academy of Sciences. He is the author of "Weaving the Web".
-                
-                On March 18 2013, Sir Tim, along with Vinton Cerf, Robert Kahn, Louis Pouzin and Marc Andreesen, was awarded the Queen Elizabeth Prize for Engineering for "ground-breaking innovation in engineering that has been of global benefit to humanity."
-                
-                Sir Tim has promoted open government data globally and spends time fighting for rights such as net neutrality, privacy and the openness of the Web.
-                
-                <br>On 4 April 2017, Sir Tim was awarded the ACM A.M. Turing Prize for inventing the World Wide Web, the first web browser, and the fundamental protocols and algorithms allowing the Web to scale. The Turing Prize, called the "Nobel Prize of Computing" is considered one of the most prestigious awards in Computer Science.
-                
-                
-                
-                </p>
+                He was named in Time magazine's list of the 100 Most Important People of the 20th century and has received a number of other accolades for his invention.[22] He was honoured as the "Inventor of the World Wide Web" during the 2012 Summer Olympics opening ceremony in which he appeared working with a vintage NeXT Computer.[23] He tweeted "This is for everyone"[24] which appeared in LED lights attached to the chairs of the audience. He received the 2016 Turing Award "for inventing the World Wide Web, the first web browser, and the fundamental protocols and algorithms allowing the Web to scale"</p>
         </div>
     </body>
 </html>
