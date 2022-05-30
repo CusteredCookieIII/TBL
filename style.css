@@ -32,19 +32,41 @@ body{
 
 .menu{
     list-style: none;
-    position: absolute;
+    position: fixed;
     margin-top: 10px;
     margin-right: 30px;
     cursor: pointer;
     z-index: 10;
+    width: 100%;
+    background-color: white;
+    
 }
 
 .links{
-    float: left;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 10px;
     padding-right: 10px;
     font-size: 20px;
     color: black;
+    display: inline;
+    font-weight: bold;
+}
+
+.line{
+    background-color: black;
+    width: 100px;
+    height: 8px;
+    margin:8px auto;
+}
+
+#contact1{
+    color: black;
+    display: inline;
+    width: 100%;
+    height: 70px;
+}
+
+#Contact{
+    background-color: rgb(255, 255, 255);
 }
